@@ -1,0 +1,63 @@
+body{
+    padding-top: 800px;
+    margin:0;text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom :0;
+    background: linear-gradient(#ccc916 0%,#0fd8db 100%) ;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+
+}
+#name{
+    font-size: 40px;
+    
+}
+h2{
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 300;
+    
+}
+#Bio{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+cursor: pointer;
+z-index: 10;
+}
+.link{
+    float: left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
