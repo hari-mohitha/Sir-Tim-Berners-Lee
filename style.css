@@ -61,3 +61,6 @@ z-index: 10;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+}
