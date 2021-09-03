@@ -45,22 +45,43 @@ padding: 50px;
     vertical-align: middle;
 }
 .menu{
-    list-style: none;
-    position: absolute;
-    top: 10px;
+display: inline-block;
+text-align: left;
+    background: white;
+    top:0;
+    position: fixed;
+    margin-top: 0px;
     right: 30px;
 cursor: pointer;
 z-index: 10;
 }
 .link{
+    display: inline;
     float: left;
     padding-top:5px;
     padding-bottom:5px;
-    padding-left:9px;
-    padding-right:9px;
+    padding-left:33px;
+    padding-right:25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 a{
     text-decoration: none;
+}
+.link:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#writing a{
+    text-decoration: underline !important;
+    color: aqua !important;
+}
+#contact{
+    background-color: darkorange;
+}
+#contact_1 h3{
+display: inline;
+}
+#list{
+    text-align: center;
 }
